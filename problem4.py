@@ -1,6 +1,6 @@
 def minDeleteSum(s1, s2, i = 0, j = 0):
     if(i == len(s1) and j == len(s2)):
-        return 0;
+        return 0
     
     if(i == len(s1)):
         return minDeleteSum(s1, s2, i, j + 1) + chr(s2[j])

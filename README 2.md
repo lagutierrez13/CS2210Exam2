@@ -1,1 +1,5 @@
 # CS2210Exam2
+
+2. For this solution I am using a helper method to help determine if the substrings are actually palindromes, this is to help clear up the code in my main solution. I am using 3 variables, two of them to keep track of the beginning and end of the substrings and another to keep the total count of the substrings that are palindromic.
+
+3. Following the methodologies to come up with a solution to the problem the first thing that I did was figuring out what I had to do which was basically just seeing if strings were palindromes but also all those strings would be substrings of other strings and that thought helped me understand how I had to break up the problem. I made sure I could determine if a string was a palindrome and then recursively applied that same method as I traversed the string for substrings. In the end I realized just how much easier the solution was than when I initially read the problem.
